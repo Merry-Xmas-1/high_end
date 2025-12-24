@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 确保手机端显示正常 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>⚠️ High-Class Area</title>
+    <style>
+        body {
+            background-color: #000000; /* 纯黑背景 */
+            color: #b22222; /* 圣诞红字体 */
+            font-family: 'Courier New', Courier, monospace; /* 极客字体 */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            width: 90%;
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #b22222;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        p {
+            color: #fff;
+            font-size: 0.8rem;
+            margin-bottom: 30px;
+        }
+        video {
+            width: 100%;
+            max-width: 400px; /* 限制最大宽度 */
+            border: 2px solid #333;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(178, 34, 34, 0.5); /* 红色发光特效 */
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.6rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠️ 警告 ⚠️</h1>
+        <p>检测到非高雅人士入侵<br>System Loading...</p>
+        
+        <!-- 核心：你的企鹅视频 -->
+        <!-- playsinline 保证在 iOS 上不全屏播放 -->
+        <!-- autoplay muted 保证自动播放（浏览器策略要求静音才能自动播，或者让她自己点） -->
+        <video src="high-end.mp4" controls autoplay loop playsinline></video>
+        
+        <div class="footer">
+            Project: Merry Christmas<br>
+            Code by: Your Cyber Neighbor
+        </div>
+    </div>
+</body>
+</html>
